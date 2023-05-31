@@ -21,10 +21,12 @@ Essa aplicação consiste em principalmente dois componentes: Home e Dashboard.
 
 ## Home
 
+![Alt text](./public/home-component.png?raw=true "home-component")
 
 
 ## Dashboard
 
+![Alt text](./public/dashboard-component.png?raw=true "home-component")
 
 ## Acknowledgements
 
@@ -34,5 +36,5 @@ Essa aplicação consiste em principalmente dois componentes: Home e Dashboard.
 
 ## Contato
 
-email: [juliano.pedraca@gmail.com](mailto:juliano.pedraca@gmail.com).
+email: [juliano.pedraca@gmail.com](mailto:juliano.pedraca@gmail.com)
 Linkedin: [linkedin.com/juliano-pedraça](https://www.linkedin.com/in/juliano-pedra%C3%A7a-9b3387144/)
