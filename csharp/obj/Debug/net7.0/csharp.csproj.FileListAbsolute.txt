@@ -1,0 +1,15 @@
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/bin/Debug/net7.0/csharp
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/bin/Debug/net7.0/csharp.deps.json
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/bin/Debug/net7.0/csharp.runtimeconfig.json
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/bin/Debug/net7.0/csharp.dll
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/bin/Debug/net7.0/csharp.pdb
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.csproj.AssemblyReference.cache
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.AssemblyInfoInputs.cache
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.AssemblyInfo.cs
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.csproj.CoreCompileInputs.cache
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.dll
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/refint/csharp.dll
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.pdb
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/csharp.genruntimeconfig.cache
+/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/obj/Debug/net7.0/ref/csharp.dll

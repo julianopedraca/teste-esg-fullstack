@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3AUhNxBHnOKGYKY1At/YAb+OLpWyj3/hLYJIvs/MxJ4jEREjLvVF09sz1J78uz828artC6S8MJa9D2qd3hgn6g==",
+  "success": true,
+  "projectFilePath": "/home/arch-juba/Documents/programacao/pessoal/teste-esg/csharp/csharp.csproj",
+  "expectedPackageFiles": [
+    "/home/arch-juba/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
