@@ -1,71 +1,183 @@
-.home-container{
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: space-between;
+.home-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
 }
 
-.logo-section-container{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right, rgb(0,232,189) , rgb(0,207,237));
+.logo-section-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 232, 189),
+    rgb(0, 207, 237)
+  );
 }
 
-.home-logo-img{
-    width: 700px;
+.home-logo-img {
+  width: 700px;
 }
 
-.form-section-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    background-color: rgb(43, 67, 90);
+.form-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: rgb(43, 67, 90);
 }
 
-.form-title{
-    color: white;
-    font-weight: 500;
+.form-title {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
 }
 
-.form-subtitle{
-    color:rgb(0,173,169);
-    font-weight: 500;
-    font-size: 15px;
+.form-subtitle {
+  color: rgb(0, 173, 169);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
-.form-section-container form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 80vh;
-    width: 70%;
+.form-section-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  width: 70%;
 }
-
 
 .home-form-label {
-    color: white;
-    margin-bottom: 15px;
-    width: 80%;
+  color: white;
+  margin-bottom: 15px;
+  width: 80%;
 }
 
-.form-input{
-    background-color: rgb(43, 67, 90);
-    border: 1px solid rgb(107, 127, 146);
-    padding: 8px;
-    color: rgb(87, 110, 131);
-    width: 100%;
-  }
+.home-form-label span {
+  padding: 8px;
+}
 
-  .home-submit-button{
-    width: 80%;
-    height: 45px;
-    background-color: rgb(0,215,186);
-    border-style: none;
-    color: white;
-    letter-spacing: 1px;
-  }
+.form-input {
+  background-color: rgb(43, 67, 90);
+  border: 1px solid rgb(107, 127, 146);
+  padding: 8px;
+  color: rgb(87, 110, 131);
+  margin-top: 8px;
+}
+
+.text-box {
+  width: 100%;
+}
+
+/* The container */
+.checkbox-container {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(43, 67, 90);
+  border: 2px solid rgb(107, 127, 146);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid rgb(0, 215, 186);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox-text {
+  position: absolute;
+  top: -6px;
+  left: 25px;
+}
+
+.home-submit-button {
+  width: 80%;
+  height: 45px;
+  background-color: rgb(0, 215, 186);
+  border-style: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.home-error {
+  color: rgb(166, 120, 46);
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.already-member {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+hr {
+  margin-top: 4px;
+  width: 120%;
+}
+
+::placeholder {
+  color: rgb(127, 150, 171);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(127, 150, 171);
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(127, 150, 171);
+  opacity: 1;
+}

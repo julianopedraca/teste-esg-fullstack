@@ -7,13 +7,15 @@ function Dashboard() {
   const { state } = useLocation();
   const usersArr = state.usersArr;
 
+  console.log(usersArr[0])
+
   return (
     <dashboard>
       <header className="dashboard-header-container">
         <Link to="/" state={usersArr}>
           <img src={Logo} alt="logo-img" />
         </Link>
-        <p>Nome Sobrenome</p>
+        {<p>{`${usersArr[0].name} ${usersArr[0].lastName}`}</p>}
       </header>
       <section className="dashboard-table-container">
         <table>
