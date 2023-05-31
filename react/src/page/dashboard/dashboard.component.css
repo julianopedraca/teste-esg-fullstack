@@ -1,0 +1,51 @@
+.dashboard-header-container {
+  height: 15vh;
+  background-color: rgb(0, 215, 186);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.dashboard-header-container img {
+    width: 300px;
+}
+
+.dashboard-header-container p {
+    color: white;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.dashboard-table-container {
+    background-color: rgb(233,233,233);
+    padding: 30px 50px 0 50px;
+    height: 85vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+  background-color: rgb(41, 67, 89);
+  color: white;
+  height: 40px;
+}
+
+th{
+    text-align: center;
+    font-weight: 500;
+}
+
+tbody{
+    background-color: white;
+}
+
+td{
+    text-align: center;
+    border-bottom: 2px solid rgb(233,233,233);
+    height: 50px;
+    text-transform: uppercase;
+}
