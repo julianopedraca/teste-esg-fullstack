@@ -10,7 +10,7 @@ function Dashboard() {
   console.log(usersArr[0])
 
   return (
-    <dashboard>
+    <div className="dashboard-container">
       <header className="dashboard-header-container">
         <Link to="/" state={usersArr}>
           <img src={Logo} alt="logo-img" />
@@ -42,7 +42,7 @@ function Dashboard() {
           </tbody>
         </table>
       </section>
-    </dashboard>
+    </div>
   );
 }
 
