@@ -28,7 +28,7 @@ Essa aplicação consiste em principalmente dois componentes: Home e Dashboard.
 
 ![Alt text](./public/dashboard-component.png?raw=true "home-component")
 
-## Acknowledgements
+## Documentação
 
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)

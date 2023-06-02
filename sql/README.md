@@ -71,3 +71,12 @@ SELECT * FROM pedidos ORDER BY dataHora DESC;
 
 SELECT * FROM produtos ORDER BY valorProduto ASC;
 ```
+## Documentação
+
+- [SQL-Server](https://learn.microsoft.com/pt-br/sql/sql-server/?view=sql-server-ver16)
+- [SQL](https://www.w3schools.com/sql/)
+
+## Contato
+
+- email: [juliano.pedraca@gmail.com](mailto:juliano.pedraca@gmail.com)
+- Linkedin: [linkedin.com/juliano-pedraça](https://www.linkedin.com/in/juliano-pedra%C3%A7a-9b3387144/)
