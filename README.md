@@ -16,5 +16,5 @@ O teste front-end envolve a criação de uma tela de cadastro que redireciona pa
 
 ## Contato
 
-email: [juliano.pedraca@gmail.com](mailto:juliano.pedraca@gmail.com)
-Linkedin: [linkedin.com/juliano-pedraça](https://www.linkedin.com/in/juliano-pedra%C3%A7a-9b3387144/)
+-email: [juliano.pedraca@gmail.com](mailto:juliano.pedraca@gmail.com)
+-Linkedin: [linkedin.com/juliano-pedraça](https://www.linkedin.com/in/juliano-pedra%C3%A7a-9b3387144/)
